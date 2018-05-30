@@ -1,0 +1,10 @@
+C:\Users\jsolis\Desktop\SUGIv3\Generic\bin\Release\Generic.dll
+C:\Users\jsolis\Desktop\SUGIv3\Generic\bin\Release\Generic.pdb
+C:\Users\jsolis\Desktop\SUGIv3\Generic\bin\Release\Generic.xml
+C:\Users\jsolis\Desktop\SUGIv3\Generic\obj\Release\Generic.Resources.resources
+C:\Users\jsolis\Desktop\SUGIv3\Generic\obj\Release\Generic.vbproj.GenerateResource.Cache
+C:\Users\jsolis\Desktop\SUGIv3\Generic\obj\Release\Generic.vbproj.CoreCompileInputs.cache
+C:\Users\jsolis\Desktop\SUGIv3\Generic\obj\Release\Generic.dll
+C:\Users\jsolis\Desktop\SUGIv3\Generic\obj\Release\Generic.xml
+C:\Users\jsolis\Desktop\SUGIv3\Generic\obj\Release\Generic.pdb
+C:\Users\jsolis\Desktop\SUGIv3\Generic\obj\Release\Generic.vbprojResolveAssemblyReference.cache

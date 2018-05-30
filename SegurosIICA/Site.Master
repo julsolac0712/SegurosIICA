@@ -1,0 +1,159 @@
+﻿<%@ Master Language="VB" AutoEventWireup="true" CodeBehind="Site.master.vb" Inherits="SegurosIICA.SiteMaster" %>
+
+<%@ Import Namespace="SegurosIICA" %>
+<%@ Import Namespace="Microsoft.AspNet.Identity" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+    <title>Sistema de Seguros del IICA</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <webopt:bundlereference runat="server" path="~/Content/css" />
+
+    <asp:PlaceHolder runat="server">
+        <%: Scripts.Render("~/bundles/modernizr") %>
+    </asp:PlaceHolder>
+
+    <asp:PlaceHolder runat="server">
+        <%:Scripts.Render("~/bundles/jquery", "~/bundles/Bootstrap") %>
+    </asp:PlaceHolder>
+
+</head>
+<body>
+    <form runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+    <div id="site-content">
+        <header class="form-header">
+            <div class="top-header">
+                <div class="container">
+
+                    <div class="divFloatRight">
+                        <span style="font-size: 25px; line-height: normal; color: #fff;"><asp:Localize ID="Localize1" runat="server" Text="Sistema de Seguros"></asp:Localize></span>
+                        <img src="http://sugi.iica.int/App_Themes/WebIICA/Images/logoIICAheader.png" alt="IICA">
+                        
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="bottom-header">
+                <div class="container">
+                    <nav>
+                        <ul class="nav">
+                            <li><a href="http://localhost:19613/Pages/Default.aspx"><asp:Localize ID="lcl_Inicio" runat="server" Text="Inicio"></asp:Localize></a></li>
+                            <li><a href="#">Catálogos</a>
+                                <ul>
+                                    <li><a href="http://localhost:19613/Pages/Catalogos/Seguros.aspx">Seguros</a></li>
+                                    <li><a href="http://localhost:19613/Pages/Catalogos/Clases.aspx">Clases</a></li>
+                                    <li><a href="http://localhost:19613/Pages/Catalogos/Sedes.aspx">Sedes</a></li>
+                       <%--             <li><a href="http://localhost:19613/Pages/Catalogos/Reclamos.aspx">Tipos de Reclamos</a></li>
+                                    <li><a href="http://localhost:19613/Pages/Catalogos/TipoPersonal.aspx">Tipos de Personal</a></li>--%>
+                                    <li><a href="http://localhost:19613/Pages/Catalogos/ParametrosGenerales.aspx">Parámetros de Seguros</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Procesos</a>
+                                <ul>
+                                    <li><a href="http://localhost:19613/Pages/Procesos/RegistroAutos.aspx">Registro Autos</a></li>
+                                    <li><a href="http://localhost:19613/Pages/Procesos/Asegurados.aspx">Asegurados</a></li>
+                                    <li><a href="#">Corto Plazo</a>
+                                        <ul>
+                                            <li><a href="#">Registro</a></li>
+                                          <%--  <li><a href="#">V...</a></li>
+                                            <li><a href="#">B...</a></li>
+                                            <li><a href="#">H...</a></li>--%>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Exfuncionarios</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Consultas</a>
+                                <ul>
+                                    <li><a href="http://localhost:19613/Pages/Consultas/Expediente.aspx">Expediente Asegurado</a></li>
+                         <%--           <li><a href="#">V...</a></li>
+                                    <li><a href="#">B...</a></li>
+                                    <li><a href="#">H...</a></li>--%>
+                                </ul>
+                            </li>
+                            <li><a href="#">Reportes</a>
+                                <ul>
+                                    <li><a href="#">item</a></li>
+                                    <li><a href="#">item</a></li>
+                                    <li><a href="#">item</a></li>
+                                    <li><a href="#">item</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Interfaces</a>
+                                <ul>
+                                    <li><a href="http://localhost:19613/Pages/Interfaces/INT_SegCPlazo.aspx">Corto Plazo</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Seguridad</a>
+                             <ul>
+                                    <li><a href="http://localhost:19613/Pages/Seguridad/Roles.aspx">Roles</a></li>
+                                    <li><a href="http://localhost:19613/Pages/Seguridad/Usuarios.aspx">Usuarios</a></li>
+                                    <li><a href="http://localhost:19613/Pages/Seguridad/Menu.aspx">Opciones</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+        </header>
+
+        <div class="container body-content">
+            <asp:Panel ID="pnl_Status" runat="server" Visible="False" CssClass="alert alert-success margin-top-10 general-status-message">
+                <p>
+                    <asp:Literal ID="lit_Status_Message" runat="server"></asp:Literal>
+                </p>
+            </asp:Panel>
+            <asp:Panel ID="pnl_Errores" runat="server" Visible="False" CssClass="alert alert-danger margin-top-10">
+                <asp:Literal ID="lit_Error_Message" runat="server"></asp:Literal>
+            </asp:Panel>
+            <div class="row">
+                <div class="col-md-6">
+                    <asp:SiteMapPath ID="smp_Footer" runat="server" SkinID="SiteMap">
+                    </asp:SiteMapPath>
+                </div>
+            </div>
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+            <hr />
+            <footer class="margin-top-30">
+                <p>
+                    &copy; <%: DateTime.Now.Year %> -
+                    <asp:Literal ID="ltl_Footer" Text="Instituto Interamericano de Cooperación para la Agricultura" runat="server"></asp:Literal>
+                </p>
+            </footer>
+        </div>
+    </div>
+
+
+    </form>
+    <asp:PlaceHolder runat="server">
+        <%:Scripts.Render("~/bundles/jquery") %>
+    </asp:PlaceHolder>
+    <asp:PlaceHolder runat="server">
+        <%:Scripts.Render("~/bundles/Bootstrap")%>
+    </asp:PlaceHolder>
+
+</body>
+</html>
+
+<script type="text/javascript">
+    (function ($) {
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 200) {
+                    $('#menu').fadeIn(500);
+                } else {
+                    $('#menu').fadeOut(500);
+                }
+            });
+        });
+    })(jQuery);
+</script>

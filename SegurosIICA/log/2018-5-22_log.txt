@@ -1,0 +1,18 @@
+2:44:09 p. m. --> Error: Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+____________________________________________________
+2:45:12 p. m. --> Error: Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+____________________________________________________
+2:46:17 p. m. --> Error: Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+____________________________________________________
+3:04:23 p. m. --> Error: SqlException: MERCURIO Procedure SEGIICA_PRO_Man_Asegurados State = 4 Line Number = 0 Message = Procedure or function 'SEGIICA_PRO_Man_Asegurados' expects parameter '@lastUpdate', which was not supplied.
+____________________________________________________
+3:05:35 p. m. --> Error: SqlException: MERCURIO Procedure SEGIICA_PRO_Man_Asegurados State = 4 Line Number = 0 Message = Procedure or function 'SEGIICA_PRO_Man_Asegurados' expects parameter '@lastUpdate', which was not supplied.
+____________________________________________________
+3:05:59 p. m. --> Error: SqlException: MERCURIO Procedure SEGIICA_PRO_Man_Asegurados State = 108 Line Number = 93 Message = Error de concurrencia al actualizar la información de Asegurado.
+____________________________________________________
+3:38:54 p. m. --> Error: SqlException: MERCURIO Procedure SEGIICA_PRO_Man_Asegurados State = 2 Line Number = 0 Message = Operand type clash: sql_variant is incompatible with timestamp
+____________________________________________________
+3:57:00 p. m. --> Error: Mensaje: Se encontraron varios controles con el mismo identificador 'rfv_TipoSeguro'. FindControl requiere que los controles tengan identificadores únicos.
+____________________________________________________
+3:57:03 p. m. --> Error: Mensaje: Se encontraron varios controles con el mismo identificador 'rfv_TipoSeguro'. FindControl requiere que los controles tengan identificadores únicos.
+____________________________________________________

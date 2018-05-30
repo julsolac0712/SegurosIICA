@@ -1,0 +1,10 @@
+C:\Users\jsolis\Desktop\SUGIv3\Encryptor\bin\Release\Encryptor.dll
+C:\Users\jsolis\Desktop\SUGIv3\Encryptor\bin\Release\Encryptor.pdb
+C:\Users\jsolis\Desktop\SUGIv3\Encryptor\bin\Release\Encryptor.xml
+C:\Users\jsolis\Desktop\SUGIv3\Encryptor\obj\Release\Encryptor.Resources.resources
+C:\Users\jsolis\Desktop\SUGIv3\Encryptor\obj\Release\Encryptor.vbproj.GenerateResource.Cache
+C:\Users\jsolis\Desktop\SUGIv3\Encryptor\obj\Release\Encryptor.vbproj.CoreCompileInputs.cache
+C:\Users\jsolis\Desktop\SUGIv3\Encryptor\obj\Release\Encryptor.dll
+C:\Users\jsolis\Desktop\SUGIv3\Encryptor\obj\Release\Encryptor.xml
+C:\Users\jsolis\Desktop\SUGIv3\Encryptor\obj\Release\Encryptor.pdb
+C:\Users\jsolis\Desktop\SUGIv3\Encryptor\obj\Release\Encryptor.vbprojResolveAssemblyReference.cache

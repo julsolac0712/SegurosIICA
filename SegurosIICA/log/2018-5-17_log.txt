@@ -1,0 +1,12 @@
+2:19:19 p. m. --> Error: SqlException: MERCURIO Procedure SEGIICA_PRO_Man_Familiares State = 2 Line Number = 0 Message = Procedure or function SEGIICA_PRO_Man_Familiares has too many arguments specified.
+____________________________________________________
+2:21:11 p. m. --> Error: SqlException: MERCURIO Procedure SEGIICA_PRO_Man_Familiares State = 2 Line Number = 0 Message = Procedure or function SEGIICA_PRO_Man_Familiares has too many arguments specified.
+____________________________________________________
+2:22:48 p. m. --> Error: SqlException: MERCURIO Procedure SEGIICA_PRO_Man_Familiares State = 2 Line Number = 0 Message = Procedure or function SEGIICA_PRO_Man_Familiares has too many arguments specified.
+____________________________________________________
+2:26:15 p. m. --> Error: SqlException: MERCURIO Procedure SEGIICA_PRO_Man_Familiares State = 2 Line Number = 0 Message = Procedure or function SEGIICA_PRO_Man_Familiares has too many arguments specified.
+____________________________________________________
+2:28:41 p. m. --> Error: SqlException: MERCURIO Procedure SEGIICA_PRO_Man_Familiares State = 2 Line Number = 0 Message = Procedure or function SEGIICA_PRO_Man_Familiares has too many arguments specified.
+____________________________________________________
+2:28:53 p. m. --> Error: SqlException: MERCURIO Procedure SEGIICA_PRO_Man_Familiares State = 2 Line Number = 0 Message = Procedure or function SEGIICA_PRO_Man_Familiares has too many arguments specified.
+____________________________________________________

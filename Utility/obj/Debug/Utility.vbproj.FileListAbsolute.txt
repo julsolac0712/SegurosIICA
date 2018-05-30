@@ -1,0 +1,8 @@
+C:\Users\rvargas\Documents\Visual Studio 2013\Projects\SUGI\Utility\bin\Debug\Utility.dll
+C:\Users\rvargas\Documents\Visual Studio 2013\Projects\SUGI\Utility\bin\Debug\Utility.pdb
+C:\Users\rvargas\Documents\Visual Studio 2013\Projects\SUGI\Utility\bin\Debug\Utility.xml
+C:\Users\rvargas\Documents\Visual Studio 2013\Projects\SUGI\Utility\obj\Debug\Utility.Resources.resources
+C:\Users\rvargas\Documents\Visual Studio 2013\Projects\SUGI\Utility\obj\Debug\Utility.vbproj.GenerateResource.Cache
+C:\Users\rvargas\Documents\Visual Studio 2013\Projects\SUGI\Utility\obj\Debug\Utility.dll
+C:\Users\rvargas\Documents\Visual Studio 2013\Projects\SUGI\Utility\obj\Debug\Utility.xml
+C:\Users\rvargas\Documents\Visual Studio 2013\Projects\SUGI\Utility\obj\Debug\Utility.pdb

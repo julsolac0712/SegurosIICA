@@ -1,0 +1,17 @@
+C:\Users\rvargas\Dropbox (IICA - Trial)\Randall\SUGI\Error_Handling\bin\Debug\Error_Handling.dll
+C:\Users\rvargas\Dropbox (IICA - Trial)\Randall\SUGI\Error_Handling\bin\Debug\Error_Handling.pdb
+C:\Users\rvargas\Dropbox (IICA - Trial)\Randall\SUGI\Error_Handling\obj\Debug\Error_Handling.dll
+C:\Users\rvargas\Dropbox (IICA - Trial)\Randall\SUGI\Error_Handling\obj\Debug\Error_Handling.pdb
+C:\Users\rvargas\Dropbox (IICA - Trial)\Randall\SUGI\Error_Handling\obj\Debug\Error_Handling.csprojResolveAssemblyReference.cache
+C:\Users\jsolis\Desktop\SUGIv3\Error_Handling\bin\Debug\Error_Handling.dll
+C:\Users\jsolis\Desktop\SUGIv3\Error_Handling\bin\Debug\Error_Handling.pdb
+C:\Users\jsolis\Desktop\SUGIv3\Error_Handling\obj\Debug\Error_Handling.dll
+C:\Users\jsolis\Desktop\SUGIv3\Error_Handling\obj\Debug\Error_Handling.pdb
+C:\Users\jsolis\Desktop\SUGIv3\Error_Handling\obj\Debug\Error_Handling.csproj.CoreCompileInputs.cache
+C:\Users\jsolis\Desktop\SUGIv3\Error_Handling\obj\Debug\Error_Handling.csprojResolveAssemblyReference.cache
+C:\Proyectos\SegurosIICA\Error_Handling\bin\Debug\Error_Handling.dll
+C:\Proyectos\SegurosIICA\Error_Handling\bin\Debug\Error_Handling.pdb
+C:\Proyectos\SegurosIICA\Error_Handling\obj\Debug\Error_Handling.dll
+C:\Proyectos\SegurosIICA\Error_Handling\obj\Debug\Error_Handling.pdb
+C:\Proyectos\SegurosIICA\Error_Handling\obj\Debug\Error_Handling.csprojResolveAssemblyReference.cache
+C:\Proyectos\SegurosIICA\Error_Handling\obj\Debug\Error_Handling.csproj.CoreCompileInputs.cache

@@ -1,0 +1,52 @@
+C:\Users\rvargas\documents\visual studio 2013\Projects\SUGI\Utility\bin\Debug\Utility.dll
+C:\Users\rvargas\documents\visual studio 2013\Projects\SUGI\Utility\bin\Debug\Utility.pdb
+C:\Users\rvargas\documents\visual studio 2013\Projects\SUGI\Utility\bin\Debug\Utility.xml
+C:\Users\rvargas\documents\visual studio 2013\Projects\SUGI\Utility\obj\Debug\Utility.Resources.resources
+C:\Users\rvargas\documents\visual studio 2013\Projects\SUGI\Utility\obj\Debug\Acceso_Datos.vbproj.GenerateResource.Cache
+C:\Users\rvargas\documents\visual studio 2013\Projects\SUGI\Utility\obj\Debug\Utility.dll
+C:\Users\rvargas\documents\visual studio 2013\Projects\SUGI\Utility\obj\Debug\Utility.xml
+C:\Users\rvargas\documents\visual studio 2013\Projects\SUGI\Utility\obj\Debug\Utility.pdb
+C:\Users\rvargas\Documents\Visual Studio 2013\Projects\SUGI\Utility\obj\Debug\Acceso_Datos.vbprojResolveAssemblyReference.cache
+C:\Users\gcorrales\Dropbox (IICA - Trial)\SUGI\Utility\bin\Debug\Utility.dll
+C:\Users\gcorrales\Dropbox (IICA - Trial)\SUGI\Utility\bin\Debug\Utility.pdb
+C:\Users\gcorrales\Dropbox (IICA - Trial)\SUGI\Utility\bin\Debug\Utility.xml
+C:\Users\gcorrales\Dropbox (IICA - Trial)\SUGI\Utility\obj\Debug\Utility.Resources.resources
+C:\Users\gcorrales\Dropbox (IICA - Trial)\SUGI\Utility\obj\Debug\Acceso_Datos.vbproj.GenerateResource.Cache
+C:\Users\gcorrales\Dropbox (IICA - Trial)\SUGI\Utility\obj\Debug\Utility.dll
+C:\Users\gcorrales\Dropbox (IICA - Trial)\SUGI\Utility\obj\Debug\Utility.xml
+C:\Users\gcorrales\Dropbox (IICA - Trial)\SUGI\Utility\obj\Debug\Utility.pdb
+E:\Dropbox\Dropbox (IICA - Trial)\Randall\SUGI\Utility\bin\Debug\Utility.dll
+E:\Dropbox\Dropbox (IICA - Trial)\Randall\SUGI\Utility\bin\Debug\Utility.pdb
+E:\Dropbox\Dropbox (IICA - Trial)\Randall\SUGI\Utility\bin\Debug\Utility.xml
+E:\Dropbox\Dropbox (IICA - Trial)\Randall\SUGI\Utility\obj\Debug\Utility.Resources.resources
+E:\Dropbox\Dropbox (IICA - Trial)\Randall\SUGI\Utility\obj\Debug\Acceso_Datos.vbproj.GenerateResource.Cache
+E:\Dropbox\Dropbox (IICA - Trial)\Randall\SUGI\Utility\obj\Debug\Utility.dll
+E:\Dropbox\Dropbox (IICA - Trial)\Randall\SUGI\Utility\obj\Debug\Utility.xml
+E:\Dropbox\Dropbox (IICA - Trial)\Randall\SUGI\Utility\obj\Debug\Utility.pdb
+C:\Users\rvargas\Dropbox (IICA - Trial)\Randall\SUGI\Utility\bin\Debug\Utility.dll
+C:\Users\rvargas\Dropbox (IICA - Trial)\Randall\SUGI\Utility\bin\Debug\Utility.pdb
+C:\Users\rvargas\Dropbox (IICA - Trial)\Randall\SUGI\Utility\bin\Debug\Utility.xml
+C:\Users\rvargas\Dropbox (IICA - Trial)\Randall\SUGI\Utility\obj\Debug\Utility.Resources.resources
+C:\Users\rvargas\Dropbox (IICA - Trial)\Randall\SUGI\Utility\obj\Debug\Acceso_Datos.vbproj.GenerateResource.Cache
+C:\Users\rvargas\Dropbox (IICA - Trial)\Randall\SUGI\Utility\obj\Debug\Utility.dll
+C:\Users\rvargas\Dropbox (IICA - Trial)\Randall\SUGI\Utility\obj\Debug\Utility.xml
+C:\Users\rvargas\Dropbox (IICA - Trial)\Randall\SUGI\Utility\obj\Debug\Utility.pdb
+C:\Users\jsolis\Desktop\SUGIv3\Utility\bin\Debug\Utility.dll
+C:\Users\jsolis\Desktop\SUGIv3\Utility\bin\Debug\Utility.pdb
+C:\Users\jsolis\Desktop\SUGIv3\Utility\bin\Debug\Utility.xml
+C:\Users\jsolis\Desktop\SUGIv3\Utility\obj\Debug\Utility.Resources.resources
+C:\Users\jsolis\Desktop\SUGIv3\Utility\obj\Debug\Acceso_Datos.vbproj.GenerateResource.Cache
+C:\Users\jsolis\Desktop\SUGIv3\Utility\obj\Debug\Utility.dll
+C:\Users\jsolis\Desktop\SUGIv3\Utility\obj\Debug\Utility.xml
+C:\Users\jsolis\Desktop\SUGIv3\Utility\obj\Debug\Utility.pdb
+C:\Users\jsolis\Desktop\SUGIv3\Utility\obj\Debug\Acceso_Datos.vbproj.CoreCompileInputs.cache
+C:\Proyectos\SegurosIICA\Utility\bin\Debug\Utility.dll
+C:\Proyectos\SegurosIICA\Utility\bin\Debug\Utility.pdb
+C:\Proyectos\SegurosIICA\Utility\bin\Debug\Utility.xml
+C:\Proyectos\SegurosIICA\Utility\obj\Debug\Utility.Resources.resources
+C:\Proyectos\SegurosIICA\Utility\obj\Debug\Acceso_Datos.vbproj.GenerateResource.Cache
+C:\Proyectos\SegurosIICA\Utility\obj\Debug\Utility.dll
+C:\Proyectos\SegurosIICA\Utility\obj\Debug\Utility.xml
+C:\Proyectos\SegurosIICA\Utility\obj\Debug\Utility.pdb
+C:\Proyectos\SegurosIICA\Utility\obj\Debug\Acceso_Datos.vbprojResolveAssemblyReference.cache
+C:\Proyectos\SegurosIICA\Utility\obj\Debug\Acceso_Datos.vbproj.CoreCompileInputs.cache

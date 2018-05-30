@@ -1,0 +1,2084 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SegurosIICA
+</name>
+</assembly>
+<members>
+<member name="T:SegurosIICA.My.MyWebExtension">
+ <summary>
+ Módulo usado para definir las propiedades que están disponibles en el espacio de nombres My para proyectos web.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:SegurosIICA.My.MyWebExtension.Computer">
+ <summary>
+ Devuelve información sobre el equipo host.
+ </summary>
+</member>
+<member name="P:SegurosIICA.My.MyWebExtension.User">
+ <summary>
+ Devuelve información del usuario web actual.
+ </summary>
+</member>
+<member name="P:SegurosIICA.My.MyWebExtension.Request">
+ <summary>
+ Devuelve un objeto Request.
+ </summary>
+</member>
+<member name="P:SegurosIICA.My.MyWebExtension.Response">
+ <summary>
+ Devuelve un objeto Response.
+ </summary>
+</member>
+<member name="P:SegurosIICA.My.MyWebExtension.Log">
+ <summary>
+ Devuelve el objeto de registro Asp.
+ </summary>
+</member>
+<member name="F:SegurosIICA.Clases._hdf_Operacion">
+<summary>
+Control hdf_Operacion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Clases._hdf_Usuario">
+<summary>
+Control hdf_Usuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Clases._hdf_Idioma">
+<summary>
+Control hdf_Idioma.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Clases._lcl_Descripcion">
+<summary>
+Control lcl_Descripcion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Clases._upAjax_Clases">
+<summary>
+Control upAjax_Clases.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Clases._gv_Clases">
+<summary>
+Control gv_Clases.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Clases._sqlDS_Clases">
+<summary>
+Control sqlDS_Clases.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.ParametrosGenerales._hdf_Usuario">
+<summary>
+Control hdf_Usuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.ParametrosGenerales._lcl_Descripcion">
+<summary>
+Control lcl_Descripcion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.ParametrosGenerales._lcl_tit_CATIE">
+<summary>
+Control lcl_tit_CATIE.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.ParametrosGenerales._lbl_tit_cta_CATIE">
+<summary>
+Control lbl_tit_cta_CATIE.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.ParametrosGenerales._txt_cta_CATIE">
+<summary>
+Control txt_cta_CATIE.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.ParametrosGenerales._lbl_tit_CC">
+<summary>
+Control lbl_tit_CC.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.ParametrosGenerales._txt_CC">
+<summary>
+Control txt_CC.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.ParametrosGenerales._lbl_tit_Fondo">
+<summary>
+Control lbl_tit_Fondo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.ParametrosGenerales._ddl_Fondo">
+<summary>
+Control ddl_Fondo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.ParametrosGenerales._lbl_tit_PEP">
+<summary>
+Control lbl_tit_PEP.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.ParametrosGenerales._txt_PEP">
+<summary>
+Control txt_PEP.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.ParametrosGenerales._lcl_tit_IICA">
+<summary>
+Control lcl_tit_IICA.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.ParametrosGenerales._lcl_tit_Exfuncionarios">
+<summary>
+Control lcl_tit_Exfuncionarios.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.ParametrosGenerales._lbl_tit_cta_Exfun">
+<summary>
+Control lbl_tit_cta_Exfun.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.ParametrosGenerales._txt_cta_Exfun">
+<summary>
+Control txt_cta_Exfun.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.ParametrosGenerales._lbl_tit_CC_Exfun">
+<summary>
+Control lbl_tit_CC_Exfun.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.ParametrosGenerales._txt_CC_Exfun">
+<summary>
+Control txt_CC_Exfun.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.ParametrosGenerales._lbl_tit_Fondo_Exfun">
+<summary>
+Control lbl_tit_Fondo_Exfun.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.ParametrosGenerales._ddl_Fondo_Exfun">
+<summary>
+Control ddl_Fondo_Exfun.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.ParametrosGenerales._lcl_tit_AutosOficiales">
+<summary>
+Control lcl_tit_AutosOficiales.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.ParametrosGenerales._lbl_tit_cta_Autos">
+<summary>
+Control lbl_tit_cta_Autos.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.ParametrosGenerales._txt_cta_Autos">
+<summary>
+Control txt_cta_Autos.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.ParametrosGenerales._lcl_tit_Obligatorios">
+<summary>
+Control lcl_tit_Obligatorios.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.ParametrosGenerales._lbl_tit_Cta_Obligatorio">
+<summary>
+Control lbl_tit_Cta_Obligatorio.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.ParametrosGenerales._txt_cta_Obligatorio">
+<summary>
+Control txt_cta_Obligatorio.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.ParametrosGenerales._lbl_tit_Factor">
+<summary>
+Control lbl_tit_Factor.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.ParametrosGenerales._txt_factor">
+<summary>
+Control txt_factor.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.ParametrosGenerales._lcl_tit_Voluntarios">
+<summary>
+Control lcl_tit_Voluntarios.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.ParametrosGenerales._lbl_tit_Cta_Voluntario">
+<summary>
+Control lbl_tit_Cta_Voluntario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.ParametrosGenerales._txt_cta_Voluntario">
+<summary>
+Control txt_cta_Voluntario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.ParametrosGenerales._lbl_tit_Cta_Voluntario2">
+<summary>
+Control lbl_tit_Cta_Voluntario2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.ParametrosGenerales._txt_cta_Voluntario2">
+<summary>
+Control txt_cta_Voluntario2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.ParametrosGenerales._lnkBtn_Guardar">
+<summary>
+Control lnkBtn_Guardar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.ParametrosGenerales._lcl_Guardara">
+<summary>
+Control lcl_Guardara.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.ParametrosGenerales._sqlDS_Parametros">
+<summary>
+Control sqlDS_Parametros.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Reclamos._hdf_Operacion">
+<summary>
+Control hdf_Operacion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Reclamos._hdf_Usuario">
+<summary>
+Control hdf_Usuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Reclamos._hdf_Idioma">
+<summary>
+Control hdf_Idioma.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Reclamos._lcl_Descripcion">
+<summary>
+Control lcl_Descripcion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Reclamos._upAjax_Reclamos">
+<summary>
+Control upAjax_Reclamos.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Reclamos._gv_Reclamos">
+<summary>
+Control gv_Reclamos.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Reclamos._sqlDS_Reclamos">
+<summary>
+Control sqlDS_Reclamos.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Sedes._lcl_Descripcion">
+<summary>
+Control lcl_Descripcion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Sedes._hdf_Operacion">
+<summary>
+Control hdf_Operacion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Sedes._gv_Sedes">
+<summary>
+Control gv_Sedes.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Sedes._sqlDS_Sedes">
+<summary>
+Control sqlDS_Sedes.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Seguros._hdf_Operacion">
+<summary>
+Control hdf_Operacion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Seguros._hdf_Usuario">
+<summary>
+Control hdf_Usuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Seguros._hdf_Idioma">
+<summary>
+Control hdf_Idioma.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Seguros._lcl_Descripcion">
+<summary>
+Control lcl_Descripcion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Seguros._upAjax_Seguros">
+<summary>
+Control upAjax_Seguros.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Seguros._gv_Seguros">
+<summary>
+Control gv_Seguros.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Seguros._sqlDS_Seguros">
+<summary>
+Control sqlDS_Seguros.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.TipoPersonal._hdf_Operacion">
+<summary>
+Control hdf_Operacion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.TipoPersonal._hdf_Usuario">
+<summary>
+Control hdf_Usuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.TipoPersonal._hdf_Idioma">
+<summary>
+Control hdf_Idioma.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.TipoPersonal._lcl_Descripcion">
+<summary>
+Control lcl_Descripcion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.TipoPersonal._upAjax_TipoPersonal">
+<summary>
+Control upAjax_TipoPersonal.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.TipoPersonal._gv_TipoPersonal">
+<summary>
+Control gv_TipoPersonal.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.TipoPersonal._sqlDS_TipoPersonal">
+<summary>
+Control sqlDS_TipoPersonal.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Expediente._hdf_Usuario">
+<summary>
+Control hdf_Usuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Expediente._hdf_Idioma">
+<summary>
+Control hdf_Idioma.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Expediente._hdf_Asegurado">
+<summary>
+Control hdf_Asegurado.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Expediente._sqlDS_Observaciones">
+<summary>
+Control sqlDS_Observaciones.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Expediente._lcl_Descripcion">
+<summary>
+Control lcl_Descripcion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Expediente._pnl_Asegurados">
+<summary>
+Control pnl_Asegurados.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Expediente._lcl_SedeFiltro">
+<summary>
+Control lcl_SedeFiltro.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Expediente._ddl_SedeFiltro">
+<summary>
+Control ddl_SedeFiltro.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Expediente._sqlDS_SedeFiltro">
+<summary>
+Control sqlDS_SedeFiltro.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Expediente._lcl_ClaseFiltro">
+<summary>
+Control lcl_ClaseFiltro.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Expediente._ddl_ClaseFiltro">
+<summary>
+Control ddl_ClaseFiltro.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Expediente._sqlDS_ClaseFiltro">
+<summary>
+Control sqlDS_ClaseFiltro.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Expediente._gv_Asegurados">
+<summary>
+Control gv_Asegurados.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Expediente._sqlDS_Asegurados">
+<summary>
+Control sqlDS_Asegurados.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Expediente._pnl_Detalle">
+<summary>
+Control pnl_Detalle.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Expediente._lcl_DatosAsegurado">
+<summary>
+Control lcl_DatosAsegurado.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Expediente._fv_DatosAsegurado">
+<summary>
+Control fv_DatosAsegurado.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Expediente._sqlDS_DatosAsegurado">
+<summary>
+Control sqlDS_DatosAsegurado.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Expediente._Localize1">
+<summary>
+Control Localize1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Expediente._gv_Coberturas">
+<summary>
+Control gv_Coberturas.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Expediente._sqlDS_Coberturas">
+<summary>
+Control sqlDS_Coberturas.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Expediente._Localize2">
+<summary>
+Control Localize2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Expediente._gv_Familiares">
+<summary>
+Control gv_Familiares.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Expediente._sqlDS_Familiares">
+<summary>
+Control sqlDS_Familiares.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Expediente._lcl_ComentariosPlan">
+<summary>
+Control lcl_ComentariosPlan.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Expediente._txt_Observaciones">
+<summary>
+Control txt_Observaciones.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Expediente._lnkBtn_Regresar">
+<summary>
+Control lnkBtn_Regresar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Expediente._lcl_Regresar">
+<summary>
+Control lcl_Regresar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA._Default._hdf_Usuario">
+<summary>
+Control hdf_Usuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA._Default._lcl_Descripcion">
+<summary>
+Control lcl_Descripcion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA._Default._lcl_texto1">
+<summary>
+Control lcl_texto1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA._Default._lcl_texto2">
+<summary>
+Control lcl_texto2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA._Default._lcl_link">
+<summary>
+Control lcl_link.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.INT_SegCPlazo._lcl_Descripcion">
+<summary>
+Control lcl_Descripcion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.INT_SegCPlazo._lcl_Tit_Resumen">
+<summary>
+Control lcl_Tit_Resumen.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.INT_SegCPlazo._upAjax_CortoPlazo">
+<summary>
+Control upAjax_CortoPlazo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.INT_SegCPlazo._gv_PeriodosCargados">
+<summary>
+Control gv_PeriodosCargados.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.INT_SegCPlazo._sqDS_PeriodosCargados">
+<summary>
+Control sqDS_PeriodosCargados.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.INT_SegCPlazo._fu_Cargar">
+<summary>
+Control fu_Cargar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.INT_SegCPlazo._lnk_Cargar">
+<summary>
+Control lnk_Cargar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.INT_SegCPlazo._lcl_Cargar">
+<summary>
+Control lcl_Cargar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.INT_SegCPlazo._txt_Filename">
+<summary>
+Control txt_Filename.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.INT_SegCPlazo._btnUpload">
+<summary>
+Control btnUpload.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Asegurados._hdf_Operacion">
+<summary>
+Control hdf_Operacion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Asegurados._hdf_Usuario">
+<summary>
+Control hdf_Usuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Asegurados._hdf_Idioma">
+<summary>
+Control hdf_Idioma.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Asegurados._hdf_Asegurado">
+<summary>
+Control hdf_Asegurado.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Asegurados._hdf_Familiar">
+<summary>
+Control hdf_Familiar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Asegurados._hdf_lastUpdate">
+<summary>
+Control hdf_lastUpdate.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Asegurados._sqlDS_Observaciones">
+<summary>
+Control sqlDS_Observaciones.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Asegurados._lcl_Descripcion">
+<summary>
+Control lcl_Descripcion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Asegurados._pnl_Asegurados">
+<summary>
+Control pnl_Asegurados.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Asegurados._lcl_SedeFiltro">
+<summary>
+Control lcl_SedeFiltro.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Asegurados._ddl_SedeFiltro">
+<summary>
+Control ddl_SedeFiltro.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Asegurados._sqlDS_SedeFiltro">
+<summary>
+Control sqlDS_SedeFiltro.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Asegurados._lcl_ClaseFiltro">
+<summary>
+Control lcl_ClaseFiltro.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Asegurados._ddl_ClaseFiltro">
+<summary>
+Control ddl_ClaseFiltro.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Asegurados._sqlDS_ClaseFiltro">
+<summary>
+Control sqlDS_ClaseFiltro.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Asegurados._gv_Asegurados">
+<summary>
+Control gv_Asegurados.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Asegurados._sqlDS_Asegurados">
+<summary>
+Control sqlDS_Asegurados.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Asegurados._pnl_Detalle">
+<summary>
+Control pnl_Detalle.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Asegurados._lcl_Generales">
+<summary>
+Control lcl_Generales.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Asegurados._lcl_Coberturas">
+<summary>
+Control lcl_Coberturas.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Asegurados._lcl_Familiares">
+<summary>
+Control lcl_Familiares.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Asegurados._lcl_Observaciones">
+<summary>
+Control lcl_Observaciones.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Asegurados._lcl_Funcionario">
+<summary>
+Control lcl_Funcionario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Asegurados._UpdatePanel4">
+<summary>
+Control UpdatePanel4.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Asegurados._lcl_DatosAsegurado">
+<summary>
+Control lcl_DatosAsegurado.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Asegurados._lnkBtn_EditarID">
+<summary>
+Control lnkBtn_EditarID.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Asegurados._fv_DatosAsegurado">
+<summary>
+Control fv_DatosAsegurado.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Asegurados._sqlDS_DatosAsegurado">
+<summary>
+Control sqlDS_DatosAsegurado.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Asegurados._lcl_tabCoberturas">
+<summary>
+Control lcl_tabCoberturas.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Asegurados._hdf_OperacionCoberturas">
+<summary>
+Control hdf_OperacionCoberturas.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Asegurados._UpdatePanel1">
+<summary>
+Control UpdatePanel1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Asegurados._gv_Coberturas">
+<summary>
+Control gv_Coberturas.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Asegurados._sqlDS_Coberturas">
+<summary>
+Control sqlDS_Coberturas.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Asegurados._lcl_tabFamiliares">
+<summary>
+Control lcl_tabFamiliares.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Asegurados._hdf_OperacionFamiliar">
+<summary>
+Control hdf_OperacionFamiliar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Asegurados._UpdatePanel2">
+<summary>
+Control UpdatePanel2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Asegurados._gv_Familiares">
+<summary>
+Control gv_Familiares.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Asegurados._sqlDS_Familiares">
+<summary>
+Control sqlDS_Familiares.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Asegurados._hdf_OperacionCoberturaFamiliar">
+<summary>
+Control hdf_OperacionCoberturaFamiliar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Asegurados._pnl_SegurosFamiliares">
+<summary>
+Control pnl_SegurosFamiliares.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Asegurados._lcl_NombreFamiliar">
+<summary>
+Control lcl_NombreFamiliar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Asegurados._gv_CoberturasFamiliares">
+<summary>
+Control gv_CoberturasFamiliares.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Asegurados._sqlDS_CoberturasFamiliares">
+<summary>
+Control sqlDS_CoberturasFamiliares.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Asegurados._pnl_Observaciones">
+<summary>
+Control pnl_Observaciones.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Asegurados._UpdatePanel3">
+<summary>
+Control UpdatePanel3.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Asegurados._lcl_ComentariosPlan">
+<summary>
+Control lcl_ComentariosPlan.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Asegurados._txt_Observaciones">
+<summary>
+Control txt_Observaciones.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Asegurados._lcl_cien">
+<summary>
+Control lcl_cien.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Asegurados._lnkBtn_Observaciones">
+<summary>
+Control lnkBtn_Observaciones.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Asegurados._lcl_EnviarRevision">
+<summary>
+Control lcl_EnviarRevision.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.RegistroAutos._hdf_Operacion">
+<summary>
+Control hdf_Operacion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.RegistroAutos._hdf_Usuario">
+<summary>
+Control hdf_Usuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.RegistroAutos._hdf_Idioma">
+<summary>
+Control hdf_Idioma.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.RegistroAutos._lcl_Descripcion">
+<summary>
+Control lcl_Descripcion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.RegistroAutos._upAjax_Autos">
+<summary>
+Control upAjax_Autos.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.RegistroAutos._lcl_SedeFiltro">
+<summary>
+Control lcl_SedeFiltro.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.RegistroAutos._ddl_SedeFiltro">
+<summary>
+Control ddl_SedeFiltro.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.RegistroAutos._sqlDS_SedeFiltro">
+<summary>
+Control sqlDS_SedeFiltro.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.RegistroAutos._lcl_TipoFiltro">
+<summary>
+Control lcl_TipoFiltro.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.RegistroAutos._ddl_TipoFiltro">
+<summary>
+Control ddl_TipoFiltro.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.RegistroAutos._lcl_PeriodoFiltro">
+<summary>
+Control lcl_PeriodoFiltro.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.RegistroAutos._ddl_PeriodoFiltro">
+<summary>
+Control ddl_PeriodoFiltro.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.RegistroAutos._sqlDS_PeriodoFiltro">
+<summary>
+Control sqlDS_PeriodoFiltro.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.RegistroAutos._gv_Autos">
+<summary>
+Control gv_Autos.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.RegistroAutos._sqlDS_Autos">
+<summary>
+Control sqlDS_Autos.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Menu._hdf_Operacion">
+<summary>
+Control hdf_Operacion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Menu._hdf_Usuario">
+<summary>
+Control hdf_Usuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Menu._hdf_Idioma">
+<summary>
+Control hdf_Idioma.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Menu._upAjax_Usuarios">
+<summary>
+Control upAjax_Usuarios.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Menu._lcl_Descripcion">
+<summary>
+Control lcl_Descripcion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Menu._gv_OpcionesMenu">
+<summary>
+Control gv_OpcionesMenu.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Menu._sqlDS_OpcionesMenu">
+<summary>
+Control sqlDS_OpcionesMenu.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Roles._hdf_Operacion">
+<summary>
+Control hdf_Operacion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Roles._hdf_Usuario">
+<summary>
+Control hdf_Usuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Roles._hdf_Idioma">
+<summary>
+Control hdf_Idioma.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Roles._hdf_Rol">
+<summary>
+Control hdf_Rol.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Roles._upAjax_Usuarios">
+<summary>
+Control upAjax_Usuarios.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Roles._lcl_Descripcion">
+<summary>
+Control lcl_Descripcion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Roles._gv_Roles">
+<summary>
+Control gv_Roles.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Roles._sqlDS_Roles">
+<summary>
+Control sqlDS_Roles.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Roles._pnl_Roles">
+<summary>
+Control pnl_Roles.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Roles._lcl_Usuario">
+<summary>
+Control lcl_Usuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Roles._chkList_MainMenu">
+<summary>
+Control chkList_MainMenu.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Roles._sqlDS_MainMenu">
+<summary>
+Control sqlDS_MainMenu.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Usuarios._hdf_Operacion">
+<summary>
+Control hdf_Operacion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Usuarios._hdf_Operacionrol">
+<summary>
+Control hdf_Operacionrol.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Usuarios._hdf_Usuario">
+<summary>
+Control hdf_Usuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Usuarios._hdf_Idioma">
+<summary>
+Control hdf_Idioma.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Usuarios._hdf_ID">
+<summary>
+Control hdf_ID.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Usuarios._upAjax_Usuarios">
+<summary>
+Control upAjax_Usuarios.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Usuarios._lcl_Descripcion">
+<summary>
+Control lcl_Descripcion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Usuarios._gv_Usuarios">
+<summary>
+Control gv_Usuarios.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Usuarios._sqlDS_Usuarios">
+<summary>
+Control sqlDS_Usuarios.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Usuarios._pnl_Roles">
+<summary>
+Control pnl_Roles.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Usuarios._lcl_Usuario">
+<summary>
+Control lcl_Usuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Usuarios._gv_Roles">
+<summary>
+Control gv_Roles.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Usuarios._sqlDS_Roles">
+<summary>
+Control sqlDS_Roles.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.SiteMaster._ScriptManager1">
+<summary>
+Control ScriptManager1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.SiteMaster._Localize1">
+<summary>
+Control Localize1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.SiteMaster._lcl_Inicio">
+<summary>
+Control lcl_Inicio.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.SiteMaster._pnl_Status">
+<summary>
+Control pnl_Status.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.SiteMaster._lit_Status_Message">
+<summary>
+Control lit_Status_Message.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.SiteMaster._pnl_Errores">
+<summary>
+Control pnl_Errores.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.SiteMaster._lit_Error_Message">
+<summary>
+Control lit_Error_Message.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.SiteMaster._smp_Footer">
+<summary>
+Control smp_Footer.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.SiteMaster._MainContent">
+<summary>
+Control MainContent.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.SiteMaster._ltl_Footer">
+<summary>
+Control ltl_Footer.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Site_Mobile._img_LogoIICA">
+<summary>
+img_LogoIICA control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Site_Mobile._lbl_tituloSistema">
+<summary>
+lbl_tituloSistema control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Site_Mobile._lbl_NombreUsuario">
+<summary>
+lbl_NombreUsuario control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Site_Mobile._pnl_Status">
+<summary>
+pnl_Status control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Site_Mobile._lit_Status_Message">
+<summary>
+lit_Status_Message control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Site_Mobile._pnl_Errores">
+<summary>
+pnl_Errores control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Site_Mobile._lit_Error_Message">
+<summary>
+lit_Error_Message control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Site_Mobile._smp_Footer">
+<summary>
+smp_Footer control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Site_Mobile._MainContent">
+<summary>
+MainContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SegurosIICA.Site_Mobile._ltl_Footer">
+<summary>
+ltl_Footer control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+</members>
+</doc>

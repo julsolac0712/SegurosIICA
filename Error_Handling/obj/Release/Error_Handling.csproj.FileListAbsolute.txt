@@ -1,0 +1,6 @@
+C:\Users\jsolis\Desktop\SUGIv3\Error_Handling\bin\Release\Error_Handling.dll
+C:\Users\jsolis\Desktop\SUGIv3\Error_Handling\bin\Release\Error_Handling.pdb
+C:\Users\jsolis\Desktop\SUGIv3\Error_Handling\obj\Release\Error_Handling.csproj.CoreCompileInputs.cache
+C:\Users\jsolis\Desktop\SUGIv3\Error_Handling\obj\Release\Error_Handling.dll
+C:\Users\jsolis\Desktop\SUGIv3\Error_Handling\obj\Release\Error_Handling.pdb
+C:\Users\jsolis\Desktop\SUGIv3\Error_Handling\obj\Release\Error_Handling.csprojResolveAssemblyReference.cache

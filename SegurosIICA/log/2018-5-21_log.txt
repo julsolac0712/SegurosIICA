@@ -1,0 +1,16 @@
+10:07:25 a. m. --> Error: SqlException: MERCURIO Procedure SEGIICA_PRO_Man_Asegurados State = 1 Line Number = 0 Message = @NombreCompleto is not a parameter for procedure SEGIICA_PRO_Man_Asegurados.
+____________________________________________________
+10:20:28 a. m. --> Error: SqlException: MERCURIO Procedure SEGIICA_PRO_Man_Asegurados State = 108 Line Number = 87 Message = Error de concurrencia al actualizar la información de Asegurado.
+____________________________________________________
+10:20:57 a. m. --> Error: SqlException: MERCURIO Procedure SEGIICA_PRO_Man_Asegurados State = 108 Line Number = 87 Message = Error de concurrencia al actualizar la información de Asegurado.
+____________________________________________________
+10:21:36 a. m. --> Error: SqlException: MERCURIO Procedure SEGIICA_PRO_Man_Asegurados State = 102 Line Number = 80 Message = Error al actualizar la información de Asegurado.
+____________________________________________________
+10:22:49 a. m. --> Error: SqlException: MERCURIO Procedure SEGIICA_PRO_Man_Asegurados State = 102 Line Number = 80 Message = Error al actualizar la información de Asegurado.
+____________________________________________________
+11:14:44 a. m. --> Error: SqlException: MERCURIO Procedure SEGIICA_PRO_Man_Asegurados State = 4 Line Number = 0 Message = Procedure or function 'SEGIICA_PRO_Man_Asegurados' expects parameter '@lastUpdate', which was not supplied.
+____________________________________________________
+11:48:51 a. m. --> Error: SqlException: MERCURIO Procedure SEGIICA_PRO_Man_Asegurados State = 4 Line Number = 0 Message = Procedure or function 'SEGIICA_PRO_Man_Asegurados' expects parameter '@lastUpdate', which was not supplied.
+____________________________________________________
+11:51:47 a. m. --> Error: SqlException: MERCURIO Procedure SEGIICA_PRO_Man_Asegurados State = 4 Line Number = 0 Message = Procedure or function 'SEGIICA_PRO_Man_Asegurados' expects parameter '@lastUpdate', which was not supplied.
+____________________________________________________

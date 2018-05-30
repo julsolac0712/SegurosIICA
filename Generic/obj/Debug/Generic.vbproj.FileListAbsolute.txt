@@ -1,0 +1,44 @@
+E:\Dropbox\Dropbox (IICA - Trial)\Randall\SUGI\Generic\bin\Debug\Generic.dll
+E:\Dropbox\Dropbox (IICA - Trial)\Randall\SUGI\Generic\bin\Debug\Generic.pdb
+E:\Dropbox\Dropbox (IICA - Trial)\Randall\SUGI\Generic\bin\Debug\Generic.xml
+E:\Dropbox\Dropbox (IICA - Trial)\Randall\SUGI\Generic\obj\Debug\Generic.Resources.resources
+E:\Dropbox\Dropbox (IICA - Trial)\Randall\SUGI\Generic\obj\Debug\Generic.vbproj.GenerateResource.Cache
+E:\Dropbox\Dropbox (IICA - Trial)\Randall\SUGI\Generic\obj\Debug\Generic.dll
+E:\Dropbox\Dropbox (IICA - Trial)\Randall\SUGI\Generic\obj\Debug\Generic.xml
+E:\Dropbox\Dropbox (IICA - Trial)\Randall\SUGI\Generic\obj\Debug\Generic.pdb
+C:\Users\gcorrales\Dropbox (IICA - Trial)\SUGI\Generic\bin\Debug\Generic.dll
+C:\Users\gcorrales\Dropbox (IICA - Trial)\SUGI\Generic\bin\Debug\Generic.pdb
+C:\Users\gcorrales\Dropbox (IICA - Trial)\SUGI\Generic\bin\Debug\Generic.xml
+C:\Users\gcorrales\Dropbox (IICA - Trial)\SUGI\Generic\obj\Debug\Generic.Resources.resources
+C:\Users\gcorrales\Dropbox (IICA - Trial)\SUGI\Generic\obj\Debug\Generic.vbproj.GenerateResource.Cache
+C:\Users\gcorrales\Dropbox (IICA - Trial)\SUGI\Generic\obj\Debug\Generic.dll
+C:\Users\gcorrales\Dropbox (IICA - Trial)\SUGI\Generic\obj\Debug\Generic.xml
+C:\Users\gcorrales\Dropbox (IICA - Trial)\SUGI\Generic\obj\Debug\Generic.pdb
+C:\Users\rvargas\Dropbox (IICA - Trial)\Randall\SUGI\Generic\bin\Debug\Generic.dll
+C:\Users\rvargas\Dropbox (IICA - Trial)\Randall\SUGI\Generic\bin\Debug\Generic.pdb
+C:\Users\rvargas\Dropbox (IICA - Trial)\Randall\SUGI\Generic\bin\Debug\Generic.xml
+C:\Users\rvargas\Dropbox (IICA - Trial)\Randall\SUGI\Generic\obj\Debug\Generic.Resources.resources
+C:\Users\rvargas\Dropbox (IICA - Trial)\Randall\SUGI\Generic\obj\Debug\Generic.vbproj.GenerateResource.Cache
+C:\Users\rvargas\Dropbox (IICA - Trial)\Randall\SUGI\Generic\obj\Debug\Generic.dll
+C:\Users\rvargas\Dropbox (IICA - Trial)\Randall\SUGI\Generic\obj\Debug\Generic.xml
+C:\Users\rvargas\Dropbox (IICA - Trial)\Randall\SUGI\Generic\obj\Debug\Generic.pdb
+C:\Users\jsolis\Desktop\SUGIv3\Generic\bin\Debug\Generic.dll
+C:\Users\jsolis\Desktop\SUGIv3\Generic\bin\Debug\Generic.pdb
+C:\Users\jsolis\Desktop\SUGIv3\Generic\bin\Debug\Generic.xml
+C:\Users\jsolis\Desktop\SUGIv3\Generic\obj\Debug\Generic.Resources.resources
+C:\Users\jsolis\Desktop\SUGIv3\Generic\obj\Debug\Generic.vbproj.GenerateResource.Cache
+C:\Users\jsolis\Desktop\SUGIv3\Generic\obj\Debug\Generic.dll
+C:\Users\jsolis\Desktop\SUGIv3\Generic\obj\Debug\Generic.xml
+C:\Users\jsolis\Desktop\SUGIv3\Generic\obj\Debug\Generic.pdb
+C:\Users\jsolis\Desktop\SUGIv3\Generic\obj\Debug\Generic.vbproj.CoreCompileInputs.cache
+C:\Users\jsolis\Desktop\SUGIv3\Generic\obj\Debug\Generic.vbprojResolveAssemblyReference.cache
+C:\Proyectos\SegurosIICA\Generic\bin\Debug\Generic.dll
+C:\Proyectos\SegurosIICA\Generic\bin\Debug\Generic.pdb
+C:\Proyectos\SegurosIICA\Generic\bin\Debug\Generic.xml
+C:\Proyectos\SegurosIICA\Generic\obj\Debug\Generic.vbprojResolveAssemblyReference.cache
+C:\Proyectos\SegurosIICA\Generic\obj\Debug\Generic.Resources.resources
+C:\Proyectos\SegurosIICA\Generic\obj\Debug\Generic.vbproj.GenerateResource.Cache
+C:\Proyectos\SegurosIICA\Generic\obj\Debug\Generic.dll
+C:\Proyectos\SegurosIICA\Generic\obj\Debug\Generic.xml
+C:\Proyectos\SegurosIICA\Generic\obj\Debug\Generic.pdb
+C:\Proyectos\SegurosIICA\Generic\obj\Debug\Generic.vbproj.CoreCompileInputs.cache

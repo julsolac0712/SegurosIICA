@@ -1,0 +1,10 @@
+C:\Users\jsolis\Desktop\SUGIv3\Utility\bin\Release\Utility.dll
+C:\Users\jsolis\Desktop\SUGIv3\Utility\bin\Release\Utility.pdb
+C:\Users\jsolis\Desktop\SUGIv3\Utility\bin\Release\Utility.xml
+C:\Users\jsolis\Desktop\SUGIv3\Utility\obj\Release\Utility.Resources.resources
+C:\Users\jsolis\Desktop\SUGIv3\Utility\obj\Release\Acceso_Datos.vbproj.GenerateResource.Cache
+C:\Users\jsolis\Desktop\SUGIv3\Utility\obj\Release\Acceso_Datos.vbproj.CoreCompileInputs.cache
+C:\Users\jsolis\Desktop\SUGIv3\Utility\obj\Release\Utility.dll
+C:\Users\jsolis\Desktop\SUGIv3\Utility\obj\Release\Utility.xml
+C:\Users\jsolis\Desktop\SUGIv3\Utility\obj\Release\Utility.pdb
+C:\Users\jsolis\Desktop\SUGIv3\Utility\obj\Release\Acceso_Datos.vbprojResolveAssemblyReference.cache
